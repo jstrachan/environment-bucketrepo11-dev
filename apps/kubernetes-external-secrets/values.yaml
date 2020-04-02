@@ -1,0 +1,2 @@
+env:
+  VAULT_ADDR: http://vault:8200 
