@@ -1,5 +1,6 @@
 apps:
 - name: stable/nginx-ingress
+- name: external-secrets/kubernetes-external-secrets
 - name: jenkins-x/jxboot-helmfile-resources
 - name: jenkins-x/bucketrepo
 - name: jenkins-x/lighthouse
