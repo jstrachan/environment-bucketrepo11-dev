@@ -2,6 +2,7 @@ apps:
 - name: stable/nginx-ingress
 - name: external-secrets/kubernetes-external-secrets
 - name: jenkins-x/jxboot-helmfile-resources
+  version: 0.0.127
 - name: jenkins-x/bucketrepo
 - name: jenkins-x/lighthouse
 - name: jenkins-x/tekton
