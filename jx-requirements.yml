@@ -2,6 +2,8 @@ autoUpdate:
   enabled: false
   schedule: ""
 bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-helmfile-config
+buildPackURL: https://github.com/jstrachan/jenkins-x-kubernetes.git
+buildPackRef: improvements
 cluster:
   chartRepository: http://bucketrepo/bucketrepo/charts/
   clusterName: bucketrepo12
