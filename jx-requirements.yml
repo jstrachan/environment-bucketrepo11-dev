@@ -2,8 +2,6 @@ autoUpdate:
   enabled: false
   schedule: ""
 bootConfigURL: https://github.com/jenkins-x/jenkins-x-boot-helmfile-config
-buildPackRef: improvements
-buildPackURL: https://github.com/jstrachan/jenkins-x-kubernetes.git
 cluster:
   chartRepository: http://bucketrepo/bucketrepo/charts/
   clusterName: bucketrepo12
@@ -80,6 +78,6 @@ velero:
   schedule: ""
   ttl: ""
 versionStream:
-  ref: v2.0.114
+  ref: master
   url: https://github.com/jenkins-x-labs/jenkins-x-versions.git
 webhook: lighthouse
